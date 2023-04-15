@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #333;
+    font-family: 'Pacifico', cursive;
+}
+
+.frame{
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+#valor{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: end;
+    margin-right: 13%;
+    background-color: rgb(72, 65, 55);
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: rgba(20, 202, 0, 0.802);
+    width: 132px;
+    height: 27px;
+}
+
+
+.botoes{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding-right: 1px;
+    margin-left: 15px;
+}
+
+
+.botoes button{
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (min-width: 100px){
+    h3{
+        font-size: 15px;
+    }
+    .frame{
+        width: 200px;
+        height: 250px;
+    }
+    .botoes button{
+        width: 25px;
+        height: 20px;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 500px){
+    h3{
+        font-size: 25px;
+    }
+    .frame{
+        width: 250px;
+        height: 300px;
+        background-color: aqua;
+        border-radius: 20px;
+    }
+    .botoes button{
+        width: 30px;
+        height: 20px;
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+    #valor{
+        width: 180px;
+        height: 35;
+        font-size: 30px;
+        padding-bottom: 5px;
+        margin-bottom: 30px;
+    }
+}
+.numero{
+    border-radius: 10px;
+}
+
+.operacao{
+    background-color: rgb(196, 142, 35);
+    border-radius: 3px;
+}
+
+.operacao:hover{
+    background-color: black;
+}
+.operacao#apagar{
+    border-radius: 50%;
+    background-color: red;
+}
+
+#igual{
+    height: 20px;
+    background-color: green;
+}
+
+.operacao.igual:hover{
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(30, 30, 156);
+    color: antiquewhite;
+}
+
